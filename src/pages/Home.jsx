@@ -5,13 +5,15 @@ const Home = () => {
 
   return (
     <div className="page home">
-      <h1>Welcome to Our Store</h1>
+      <center>
+        <h1>Welcome to Our Store</h1>
       <button 
         onClick={() => navigate('/products')}
         className="cta-button"
       >
         Browse
       </button>
+      </center>
     </div>
   )
 }

@@ -5,6 +5,10 @@ const Products = () => {
     { id: 1, name: 'Premium Headphones', price: 2500 },
     { id: 2, name: 'Wireless Keyboard', price: 3000 },
     { id: 3, name: 'Bluetooth Speaker', price: 1500 },
+    { id: 4, name:  'Smartwatch Pro', price: 5200 },
+    { id: 5, name:  'Portable Charger 10000mAh', price: 899 },
+    { id: 6, name:  'LED Desk Lamp', price: 1199 },
+    
   ]
 
   return (

@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Products from './pages/Products'
+import Address from './pages/Address'
+import Services from './pages/services'
 import ProductDetail from './pages/products/ProductDetail'
 import NotFound from './pages/NotFound'
 
@@ -15,6 +17,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="Address" element={<Address />} />
+          <Route path="Services" element={<Services/>} />
           <Route path="products" element={<Products />} />
           <Route path="products/:id" element={<ProductDetail />} />
           <Route path="*" element={<NotFound />} />
