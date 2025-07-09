@@ -3,10 +3,10 @@ import Layout from './components/Layout'
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
-import Products from "./pages/products/Products";
+import Products from './pages/products/Products';
 import Address from './pages/Address'
 import Services from './pages/Services'
-import ProductDetail from './pages/Products/ProductDetail'
+import ProductDetail from './pages/Products/ProductDetail';
 import NotFound from './pages/NotFound'
 
 function App() {
