@@ -6,7 +6,7 @@ import Contact from './pages/Contact'
 import Products from './pages/products/Products';
 import Address from './pages/Address'
 import Services from './pages/Services'
-import ProductDetail from './pages/Products/ProductDetail';
+import ProductDetail from './pages/products/ProductDetail';
 import NotFound from './pages/NotFound'
 
 function App() {
